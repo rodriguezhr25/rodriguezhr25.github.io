@@ -49,22 +49,21 @@ main {
     max-width: 90%;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
    
-    margin-left: auto;
-    margin-right: auto;
 
  }
 section p{
-    padding: 1rem;
+    margin:1.5rem;
+    text-align: left;
   
 }
 section header{
-     border-radius:10px 10px 0px 0px ;
+     border-radius: 8px 8px 0px 0px ;
 }
 main section {
     text-align: center;
     margin: 1rem 0 1rem 0;
     border: 2px dotted #8BCC28;   
-    border-radius: 8px;
+    border-radius: 10px;
     background-color: #cccccc;
 }
 .button {
