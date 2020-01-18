@@ -1,0 +1,84 @@
+
+
+body {
+    height: 100%;     
+    font-family: 'Montserrat', sans-serif;
+    margin: 2rem;
+  
+}
+header,
+footer {
+    background-color: #2969B0;
+ 
+    text-align: center;
+    color: #ffffff;
+    font-family: 'Playfair Display', serif;
+
+}
+header, nav, main, footer{
+
+    margin: 0 auto;
+    padding: 0.1rem;
+    max-width: 75rem;
+ }
+ footer a {
+    color: #ffffff;
+}
+.textDate {
+    color: yellow;
+}
+h1 {
+    font-size: 2rem;
+    padding: 0.15rem;
+}
+h2 {
+
+   font-size: 1rem;
+   text-align: center;
+  
+   border-radius: 6px;
+}
+
+main {
+	display: grid;
+	grid-template-columns: 1fr;
+    font-size: 1rem;
+    grid-gap: 1rem;
+}
+ img{
+    max-width: 90%;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+   
+    margin-left: auto;
+    margin-right: auto;
+
+ }
+section p{
+    padding: 1rem;
+  
+}
+section header{
+     border-radius:10px 10px 0px 0px ;
+}
+main section {
+    text-align: center;
+    margin: 1rem 0 1rem 0;
+    border: 2px dotted #8BCC28;   
+    border-radius: 8px;
+    background-color: #cccccc;
+}
+.button {
+    background-color: #F14A25;
+    border-radius: 8px;
+    color: #ffffff;
+    padding: 20px 34px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 1rem;
+    margin: 1rem;
+    cursor: pointer;
+    }
+ .button:hover {
+    background-color: #8BCC28;; /* Green */
+    }
