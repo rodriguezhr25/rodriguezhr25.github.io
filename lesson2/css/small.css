@@ -8,8 +8,7 @@ body {
 }
 header,
 footer {
-    background-color: #2969B0;
- 
+    background-color: #2969B0; 
     text-align: center;
     color: #ffffff;
     font-family: 'Playfair Display', serif;
@@ -43,7 +42,9 @@ main {
 	display: grid;
 	grid-template-columns: 1fr;
     font-size: 1rem;
-    grid-gap: 1rem;
+    grid-gap: 1.5rem;
+    padding-left: 1.5rem ;
+    padding-right: 1.5rem ;
 }
  img{
     max-width: 90%;
@@ -61,8 +62,7 @@ section header{
 }
 main section {
     text-align: center;
-    margin: 1rem 0 1rem 0;
-    border: 2px dotted #8BCC28;   
+    margin: 1rem 0 1rem 0;    
     border-radius: 10px;
     background-color: #cccccc;
 }
