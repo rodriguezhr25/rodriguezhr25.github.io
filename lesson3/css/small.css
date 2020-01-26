@@ -1,0 +1,144 @@
+
+/*primary-color:#FC6414
+secondary-color:#282b40
+accent-color:#F1F2EC
+accent-color2: #3C989B
+accent-color3: #FFAC00
+
+*/
+body {
+    height: 100%;     
+    font-family: 'Montserrat', sans-serif;
+    margin: 2rem;
+  
+}
+nav,
+footer {
+    background-color: #282b40; 
+    text-align: center;
+    color: #F1F2EC;
+   }
+ main, footer{
+    font-family: 'Montserrat', sans-serif;
+    margin: 0 auto;    
+    max-width: 75rem;
+ }
+ .top-header {
+    margin: 0 auto;   
+    max-width: 75rem;
+    text-align: center;  
+    background-color: #FC6414; 
+ 
+ }
+
+ footer a {
+    color:  #F1F2EC;
+}
+.textDate {
+    color: yellow;
+}
+h1 {
+    font-size: 3rem;
+
+    color: #F1F2EC;
+    font-family: 'Shadows Into Light', cursive;
+}
+h2 {
+
+   font-size: 2rem;
+    color: #FC6414;
+  font-family: 'Shadows Into Light', cursive;
+}
+section h1{
+    color: #FC6414;
+}
+
+ img{
+    width: 100%;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);  
+
+ }
+ 
+ .logo{
+     width: 100px;
+     box-shadow: none;
+ }
+section p{
+    margin:1.5rem;
+    text-align: left;
+    color: #282b40;
+  
+}
+
+
+
+.button {
+    background-color: #F14A25;
+    border-radius: 8px;
+    color:  #F1F2EC;
+    padding: 20px 34px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 1rem;
+    margin: 1rem;
+    cursor: pointer;
+    }
+ .button:hover {
+    background-color: #8BCC28;; /* Green */
+    }
+
+    nav ul{
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr ;
+        list-style: none;
+        margin: 0;
+        padding: 0;
+       
+    }
+    nav li a{
+        text-decoration: none;
+        display: block;
+        color: #F1F2EC;
+        padding: 1rem;
+    }
+    nav a:hover {
+        color:  #282b40;
+        background-color:#FFAC00;
+     
+    }
+
+    
+    .description1{
+        grid-area: dataPerson1;
+
+    }
+    .description2{
+        grid-area: dataPerson2;
+    }
+
+    .personas{
+        display: grid;
+        grid-template-areas:  "dataPerson1 dataPerson2";
+        justify-items: left;
+        column-gap: 1rem;
+    }
+
+    .color-h2{
+        color: #FC6414; 
+        font-size: 1rem;
+     }
+     .color-header{
+        color: #F1F2EC; 
+        background-color: #FC6414;
+        font-size: 2rem;
+    
+     }
+     .color-nav{
+        background-color: #282b40; 
+        color: #F1F2EC; 
+     }
+     .color-nav-hover{
+        color:  #282b40;
+        background-color:#FFAC00;
+     }
