@@ -71,26 +71,8 @@ section p{
 }
 
 
-
-.button {
-    background-color: #F14A25;
-    border-radius: 8px;
-    color:  #F1F2EC;
-    padding: 20px 34px;
-    text-align: center;
-    text-decoration: none;
-    display: inline-block;
-    font-size: 1rem;
-    margin: 1rem;
-    cursor: pointer;
-    }
- .button:hover {
-    background-color: #8BCC28;; /* Green */
-    }
-
     nav ul{
-        display: grid;
-        grid-template-columns: 1fr 1fr 1fr 1fr ;
+        display: block;      
         list-style: none;
         margin: 0;
         padding: 0;
