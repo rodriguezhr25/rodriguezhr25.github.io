@@ -1,0 +1,128 @@
+/*primary-color:#FC6414
+secondary-color:#282b40
+accent-color:#F1F2EC
+accent-color2: #3C989B
+accent-color3: #FFAC00
+
+*/
+
+body {
+    height: 100%;
+    font-family: 'Montserrat', sans-serif;   
+
+}
+
+nav,
+footer {
+    background-color: #282b40;
+    text-align: center;
+    color: #F1F2EC;    
+    width: 100%;
+}
+
+main {
+    font-family: 'Montserrat', sans-serif;
+ 
+}
+
+.top-header {
+    
+    text-align: center;
+    background-color: #FC6414;
+    display: flex;
+    align-content: center;
+    justify-content: center;
+
+}
+.headings{
+    display: flex;
+    flex-direction: column;
+}
+.headings h1{
+    margin-bottom: 5px;
+    font-size: 1.5rem;
+    color: #F1F2EC;
+    font-family: 'Shadows Into Light', cursive;
+}
+.motto{
+    color: #282b40;
+    font-size: 0.5rem;
+}
+
+footer a {
+    color: #F1F2EC;
+ 
+}
+
+
+h2 {
+
+    font-size: 1rem;
+    color: #FC6414;
+    font-family: 'Shadows Into Light', cursive;
+    text-align: center;
+}
+
+
+.logo {
+    width: 70px;
+    box-shadow: none;
+}
+
+.navigation {
+    display: block;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+
+}
+.navigation li:first-child {
+	display: block;
+}
+.navigation li {
+	display: none;
+}
+
+nav li a {
+    text-decoration: none;
+    display: block;
+    color: #F1F2EC;
+    padding: 1rem;
+}
+
+nav a:hover {
+    color: #282b40;
+    background-color: #FFAC00;
+
+}
+.responsive li {
+	display: block;
+}
+.color-h2 {
+    color: #FC6414;
+    font-size: 1rem;
+}
+
+.color-header {
+    color: #F1F2EC;
+    background-color: #FC6414;
+    font-size: 2rem;
+
+}
+
+.color-nav {
+    background-color: #282b40;
+    color: #F1F2EC;
+}
+
+.color-nav-hover {
+    color: #282b40;
+    background-color: #FFAC00;
+}
+.contentBox{
+    border: 1px dashed #282b40;;
+    background-color:#FFAC00    ;
+    color: #282b40;
+    margin: .8rem auto;
+    padding: 1rem;
+}
