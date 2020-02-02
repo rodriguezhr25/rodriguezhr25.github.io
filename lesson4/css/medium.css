@@ -18,6 +18,8 @@
         margin: 0 auto;
         max-width: 30rem;
     }
-
+    .contentBox{
+        font-size: 1rem;
+    }
 
 }

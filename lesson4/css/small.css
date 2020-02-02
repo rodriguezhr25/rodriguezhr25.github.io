@@ -46,15 +46,13 @@ main {
 }
 .motto{
     color: #282b40;
-    font-size: 0.5rem;
+    font-size: 0.6rem;
 }
 
 footer a {
     color: #F1F2EC;
  
 }
-
-
 h2 {
 
     font-size: 1rem;
@@ -62,8 +60,6 @@ h2 {
     font-family: 'Shadows Into Light', cursive;
     text-align: center;
 }
-
-
 .logo {
     width: 70px;
     box-shadow: none;
@@ -125,4 +121,5 @@ nav a:hover {
     color: #282b40;
     margin: .8rem auto;
     padding: 1rem;
+    font-size: 0.8rem;
 }
