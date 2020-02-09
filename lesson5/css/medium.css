@@ -31,4 +31,7 @@
  
         height: 40vh;
      }
+     .forecastTitle , .map{
+         display: block;
+     }
 }
