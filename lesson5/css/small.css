@@ -154,14 +154,14 @@ nav a:hover {
 
 .col {
 	flex: 1 1 100%;
-	background-color: #bed;
+	background-color: #F1F2EC;
 	font-size: 13px;
     text-align: center;
     border-top: 1px solid #282b40;
 	border-bottom: 1px solid #282b40;
 	border-left: 1px solid #282b40;
 }
-.flex div:last-child {
+.forecast div:last-child {
 	border-right: 1px solid #282b40;
 }
 .label {
