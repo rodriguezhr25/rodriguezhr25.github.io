@@ -185,6 +185,7 @@ nav a:hover {
 .article img{
 max-width: 40%;
 float: right;
+margin: 16px;
 box-shadow: 0 6px 3px 0 rgba(5, 5, 5, 0.836), 0 6px 20px 0 rgba(14, 13, 13, 0.521);
 }
  .map img{
