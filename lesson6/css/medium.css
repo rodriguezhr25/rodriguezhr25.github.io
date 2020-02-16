@@ -1,0 +1,26 @@
+@media only screen and (min-width: 32.5em) {
+    .headings h1 {
+        font-size: 2rem;
+    }
+    .motto {
+        font-size: 0.8rem;
+    }
+    h2 {
+        font-size: 1.5rem;
+    }
+    .logo {
+        width: 100px;
+    }
+    main {
+        margin: 0 auto;
+    }
+    .forecast {
+        display: flex;
+        flex-direction: row;
+        width: 100%;
+    }
+    .forecastTitle,
+    .map {
+        display: block;
+    }
+}
