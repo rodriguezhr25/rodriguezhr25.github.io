@@ -1,0 +1,45 @@
+@media only screen and (min-width: 60em) {
+    .navigation {
+        display: flex;
+    }
+    .navigation li {
+        display: block;
+        /* needed because of state in small view */
+        flex: 1 1 100%;
+    }
+    .navigation li:first-child {
+        display: none;
+    }
+    main {
+        margin: 0 auto;
+        max-width: 50rem;
+    }
+    footer {
+        margin: 0 auto;
+        max-width: 75rem;
+    }
+    .headings h1 {
+        font-size: 3rem;
+    }
+    .motto {
+        font-size: 1rem;
+    }
+    h2 {
+        font-size: 2rem;
+    }
+    .contentBox {
+        font-size: 1.2rem;
+    }
+    .logo {
+        width: 120px;
+    }
+    .gallery section:hover {
+        box-shadow: 5px 20px 50px #282b40;
+        ;
+    }
+    .gallery {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        gap: 20px;
+    }
+}
