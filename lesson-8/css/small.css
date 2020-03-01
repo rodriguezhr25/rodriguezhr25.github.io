@@ -392,9 +392,10 @@ div {
     color: #F1F2EC;
 }
 
-.button:hover {
+.button:hover,
+button:hover {
     color: #F1F2EC;
-    background-color: #282b40;
+    background-color: #FFAC00;
 }
 
 button {
