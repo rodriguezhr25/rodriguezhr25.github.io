@@ -333,6 +333,11 @@ input:invalid {
     outline: none;
 }
 
+input:valid {
+    background-color: #F1F2EC;
+    color: black;
+}
+
 fieldset {
     width: 100%;
     padding: 20px;
