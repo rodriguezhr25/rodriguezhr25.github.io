@@ -1,6 +1,7 @@
 @import url('https://fonts.googleapis.com/css?family=Ubuntu&display=swap');
 body {
     font-family: Ubuntu, san serif;
+    font-size: 0.9rem;
 }
 
 table {
@@ -9,7 +10,7 @@ table {
 }
 
 thead {
-    font-size: 1.5rem;
+    font-size: 2rem;
 }
 
 thead tr,
@@ -21,6 +22,7 @@ tbody th {
     background-color: #628ca6;
     color: white;
     font-weight: bold;
+    font-size: 1.2rem;
 }
 
 #final {
@@ -33,7 +35,7 @@ th,
 td {
     border: 1px solid #DDD;
     border-collapse: collapse;
-    padding: 10px;
+    padding: 15px;
 }
 
 tbody {
