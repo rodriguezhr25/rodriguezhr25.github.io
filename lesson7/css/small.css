@@ -91,6 +91,13 @@ nav a:hover {
     background-color: #FFAC00;
 }
 
+nav a:active {
+    color: #F1F2EC;
+    background-color: #FC6414;
+    text-decoration: underline;
+    transition: 0.5s;
+}
+
 .responsive li {
     display: block;
 }
