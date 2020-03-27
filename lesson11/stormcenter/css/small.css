@@ -267,14 +267,13 @@ nav a:active {
 
 .active {
     font-weight: bold;
-    font-style: italic;
+    text-decoration: underline;
     background-color: #FFAC00;
+    color: #282b40;
 }
 
 .active:hover {
     color: #F1F2EC;
-    background-color: #FC6414;
-    text-decoration: underline;
 }
 
 #message {
