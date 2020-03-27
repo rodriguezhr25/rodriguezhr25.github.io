@@ -373,8 +373,6 @@ legend {
 .save {
     margin: 0 auto;
     max-width: 15rem;
-    position: relative;
-    left: 40%;
 }
 
 .button:hover,
