@@ -5,13 +5,16 @@
     <title>Tropical Planer|Home</title>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="theme-color" content="#317EFB" />
     <meta name="description" content="Tropical Planner allows users to obtain information about weather conditions in tropical destinies in several stations of the year, to help them to plan the visit toward those destinies.">
     <link rel="stylesheet" href="../css/normalize.css">
-    <link rel="stylesheet" href="css/small.css" />
-    <link rel="stylesheet" href="css/medium.css" />
-    <link rel="stylesheet" href="css/large.css" />
+    <link rel="stylesheet" href="fishhaven/css/small.css" />
+    <link rel="stylesheet" href="fishhaven/css/medium.css" />
+    <link rel="stylesheet" href="fishhaven/css/large.css" />
 
 
+    <script src="fishhaven/js/weatherapi.js" type="text/javascript"></script>
+    <script src="fishhaven/js/windchill.js" type="text/javascript"></script>
 </head>
 
 <body>
@@ -29,38 +32,47 @@
     <nav>
         <ul class="navigation">
             <li><a class="ham" href="#">&#9776; Menu</a></li>
-            <li><a href="index.html" class="active">Home</a></li>
+            <li><a href="index.html">Home</a></li>
             <li><a href="preston.html">Preston</a></li>
             <li><a href="sodasprings.html">Soda Springs</a></li>
-            <li><a href="fishhaven.html">Fish Haven</a></li>
+            <li><a href="fishhaven.html" class="active">Fish Haven</a></li>
             <li><a href="stormcenter.html">Storm Center</a></li>
             <li><a href="gallery.html">Gallery</a></li>
 
         </ul>
     </nav>
-    <div class="herodiv">
-        <h1 class="h1-light">
-            Tropical Planner
-        </h1>
-
-    </div>
     <main>
+        <h2>Fish Haven</h2>
+        <div class="herodiv">
+            <div class="summary">
+                <div class="summary-titles">
+                    <p>Current:</p>
+                    <p>High:</p>
+                    <p>Wind Chill:</p>
+                    <p>Wind Speed:</p>
+                    <p>Humidity:</p>
+                </div>
+                <div class="summary-data">
+
+                </div>
+            </div>
+        </div>
+        <h2 class="forecastTitle">5 Day Forecast</h2>
+        <div class="forecast">
 
 
-        <h1 class="titles">Storm Center </h1>
-
-        <div class=" cards "></div>
+        </div>
         <div class="article contentBox">
-
-            <h1 class="titles">Weather predictions now! </h1>
             <article>
-                <img src="images/ocean.jpg" alt="ocean">
-                <p>This prediction is generated automatically from numerical and statistical models of weather forecast. The prediction of beaches establishes the state of cloudiness for certain hours, the 11:00 official hours as representative of the morning
-                    and 17:00 for the afternoon. It is also analyzed if precipitation is expected around these hours, between 08:00 and 14:00 in the morning and between 14:00 and 20:00 in the afternoon. Automatic generation may occasionally result, in
-                    special weather situations or in certain geographical areas, to not fully coincide with other predictions made by the Agency.</p>
+                <h2>Lakes and blue sky.</h2>
+                <img src="images/fish-haven-event.jpg" alt="fish-haven-event">
+                <p>If you want to live a great experience in the better lakes of the state, check the weather conditions in Fish Haven with us and enjoy a great adventure any weekend. The town has a great view of the sea, lakes bordered by woods and other
+                    places where you can take a break from pollution and agitation of the city. There are many events in the next weeks, check out our program and make your plans! </p>
             </article>
         </div>
+        <div class="events">
 
+        </div>
 
         <div class="contact contentBox">
 
@@ -88,16 +100,18 @@
             </div>
         </div>
 
-    </main>
 
+
+
+    </main>
     <footer>
-        <p>&copy; <span>The Weather Site</span> | <a href="../index.html">Hector Rodriguez</a> | Venezuela | <a href="https://www.byui.edu/online">BYUI
-                Online Learning</a></p>
+        <p>&copy; <span>The Weather Site</span> | <a href="../index.html">Hector Rodriguez</a> | Venezuela | <a href="https://openweathermap.org/api"> Weather Data from OpenWeatherMap</a></p>
         <p class="textDate"><span id="dateUpdated"></span></p>
-        <script src="js/functions.js"></script>
+        <script src="fishhaven/js/functions.js"></script>
+        <script src="https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js"></script>
+        <script src="js/webfont.js"></script>
     </footer>
-    <script src="https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js"></script>
-    <script src="js/webfontIndex.js"></script>
+
 </body>
 
 </html>
